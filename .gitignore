@@ -40,3 +40,6 @@ cdk.context.json
 
 # Env
 .env
+
+# DB data
+.postgres-data/
