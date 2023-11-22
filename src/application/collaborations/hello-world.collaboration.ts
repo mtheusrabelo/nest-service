@@ -9,5 +9,7 @@ export class GetHelloWorldCollaboration {
   run(): HumanDto[] {
     const humans = this.humanRepository.getAll();
     return humans.map((human) => human.toDto());
+
+    // add comment
   }
 }
